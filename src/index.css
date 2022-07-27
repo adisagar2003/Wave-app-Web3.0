@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-image: url('./assets/background.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #2f2f2f;
+}

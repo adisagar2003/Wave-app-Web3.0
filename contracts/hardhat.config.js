@@ -21,7 +21,7 @@ module.exports = {
   networks: {
     goerli: {
       url: "https://eth-goerli.g.alchemy.com/v2/f9tYIo4mC11Q0h7S4j-2_UcCoCga9kW3",
-      accounts: ["21a9dc90dfb8daf9006d9c0a020f4349b3b2b1f70c480f745330ad3a55f4341b"]
+      accounts: process.env.PRIVATE_KEY
     },
   },
 };

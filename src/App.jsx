@@ -113,7 +113,7 @@ const getAllMessages = async ()=>{
 
 }
 
-getAllMessages();
+getAllMessages()
   
   return (
     <div className="App">
